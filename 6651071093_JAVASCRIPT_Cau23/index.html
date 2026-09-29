@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 23 - Tính lương</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Lương</th>
+            <td><input type="number" id="luong" value="1000000"></td>
+        </tr>
+        <tr>
+            <th>Hệ số lương</th>
+            <td><input type="number" id="heSo" value="3.2" step="0.1"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="button-cell">
+                <button type="button" onclick="tinhLuong()">Tính lương tháng</button>
+            </td>
+        </tr>
+        <tr>
+            <th>Lương tháng</th>
+            <td id="luongThang">3200000</td>
+        </tr>
+    </table>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 24 - Xuất thứ</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <div class="calendar-box">
+        <div class="row">
+            <label>Ngày</label>
+            <input type="number" id="ngay" value="12" min="1" max="31">
+            <label>Tháng Select:</label>
+            <input type="number" id="thang" value="1" min="1" max="12">
+            <label>năm</label>
+            <input type="number" id="nam" value="2015">
+        </div>
+        <div class="button-row">
+            <button onclick="xuatThu()">Xuất thứ</button>
+        </div>
+        <div id="ketqua">Thứ 2 Ngày 12 tháng 1 năm 2015</div>
+    </div>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

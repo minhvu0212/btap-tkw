@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; }
+.form-box { width: 320px; margin: 60px auto; padding: 20px; border: 2px solid #aaa; }
+h2 { text-align: center; }
+label { display: inline-block; width: 105px; margin-bottom: 10px; }
+input { width: 180px; padding: 5px; box-sizing: border-box; }
+button { margin: 5px 4px 15px 105px; }
+button + button { margin-left: 0; }
+#ketqua { font-size: 20px; font-weight: bold; }
